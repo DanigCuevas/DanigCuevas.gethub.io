@@ -1,0 +1,16 @@
+/*Font Types*/
+  body {
+    text-align: center;
+}
+
+h1{
+  font-family: 'Shadows Into Light', cursive;
+}
+
+h2{
+  font-family: 'Amatic SC', cursive;
+ }
+
+p{
+  font-family: 'Caveat', cursive;
+}
