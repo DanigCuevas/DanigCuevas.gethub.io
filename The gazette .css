@@ -14,3 +14,5 @@ h2{
 p{
   font-family: 'Caveat', cursive;
 }
+/*Dotted border*/
+ p.dotted {border-style: dotted;}
