@@ -15,4 +15,4 @@ p{
   font-family: 'Caveat', cursive;
 }
 /*Dotted border*/
- p.dotted {border-style: dotted;}
+ h1.dotted {border-style: dotted;}
