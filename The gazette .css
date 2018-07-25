@@ -11,8 +11,9 @@ h2{
   font-family: 'Amatic SC', cursive;
  }
 
-p{
+p,div{
   font-family: 'Caveat', cursive;
 }
-/*Dotted border*/
+
+/*border*/
  h1.double {border-style: double;}
