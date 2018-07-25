@@ -18,3 +18,7 @@ p{
 /*border*/
  h1.double {border-style: double;}
 
+#friends{
+  width: 400px;
+  height: 341px;
+}
