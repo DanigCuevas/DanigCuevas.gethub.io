@@ -1,48 +1,49 @@
 <!DOCTYPE html>
 <html>
-<link rel="stylesheet"; href="The gazette .css">
-<script src="website.js"></script>
-
-<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Shadows+Into+Light" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Caveat|Shadows+Into+Light" rel="stylesheet">
 
  <head>
- <title>The Daniela Gazette/a portifolio </title>
+ <link rel="stylesheet" href="The gazette .css">
+ <script src="website.js"></script>
+
+
+ <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Shadows+Into+Light" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Caveat|Shadows+Into+Light" rel="stylesheet">
+ <title>The Daniela Gazette / a portifolio </title>
  </head>
  <body>
+
   <!--Navigation bad and link to other sites-->
   <div class="topNav">
-    <a id= "Home" href "TheDanielaGazette.html" onmouseover="makeGray(Home)" onmouseout="makeBlack(Home)">Home </a>
-    <a id= "aboutme" href "aboutme.html" onmouseover="makeGray(aboutme)" onmouseout="makeBlack(aboutme)">All about me</a>
+    <a id= "Home" href="TheDanielaGazette.html" onmouseover="makeGray(Home)" onmouseout="makeBlack(Home)">Home </a>
+    <a id= "aboutme" href="aboutme.html" onmouseover="makeGray(aboutme)" onmouseout="makeBlack(aboutme)">All about me</a>
      </div>
   <!--border-->
   <h1 class="double">The Daniela Gazette </h1>
 
 <!--about me section-->
-       <h2> About Me: </h2>
-     
-      <p> <img src="potato3.JPG" alt= "A picture of Daniela" class="mePicture" >I am a girl trying to find herself ,living in Washington. I'm always ready to learn new and exciting things.I'm heading to 11th grade and ready to attend Green River Community College for Running start.
-      </p>
-   
+
+
        <h2>Current Hobbies and discoveries:</h2>
        <div> I enjoy watching plenty of YouTube videos...maybe a little too much...</div>
        <div>Coding has been a blast with Python , Arduino and currently html, CSS, and JavaScript</div>
-       <div>A good jog in a long and natural filled trail is always fufilling...except when hills come
+       <div>A good jog in a long and natural filled trail is always fufilling...except when hills come</div>
        <div>Doodling, writing , and of course some good Video Games are plenty fun </div>
-          <img src="IMG_5944.JPG" id="friends"> 
+          <img src="IMG_5944.JPG" id="friends">
 
       <!-- (Pictures of some art and running stuff with a bit of description)-->
 
      <h2>Some of my favorite things:</h2>
     <div> I love any sort of journal. I got too many now, but I love all of them. </div>
-    <div>
+
 
       <h2>  A Bit In My Life: </h2>
       <!--pictures for slide-->
-      <img class="pictureSlide" src="IMG_3564.jpg">
-      <img class="pictureSlide" src="IMG_5532.jpg">
-      <img class="pictureSlide" src="IMG_3885.jpg">
+      <div id="pictureSlide">
+        <div class="slide" ><img  src="IMG_3564.jpg"></div>
+        <div class="slide" > <img src="IMG_5532.jpg"></div>
+        <div class="slide" > <img src="IMG_3885.jpg"></div>
+      </div>
       <!-- buttons -->
       <button onclick="plusDivs(-1)">&#10094;</button>
       <button onclick="plusDivs(+1)">&#10095;</button>
