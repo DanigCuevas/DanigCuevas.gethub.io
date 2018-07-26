@@ -30,10 +30,10 @@ p,div{
 }
   
 .topNav {
-  background-color:Black;
+  background-color: Black;
   overflow: Hidden;
 }
-.topNav a{
+.topNav a {
   float: left;
   color: white;
   text-align: center;
