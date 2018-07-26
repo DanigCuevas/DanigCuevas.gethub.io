@@ -1,6 +1,10 @@
 /*Font Types*/
   body {
     text-align: center;
+    background-image:url("watercolor.png");
+
+
+
 }
 
 h1{
@@ -28,7 +32,7 @@ p,div{
   width:170px;
   height:170px;
 }
-  
+
 .topNav {
   background-color: Black;
   overflow: Hidden;
@@ -39,8 +43,26 @@ p,div{
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+
+
+  #pictureSlide {
+    border: 1px black solid;
+    width :100% ;
+    height:440px;
+    margin:auto;
+    display:block;
+  }
+
+  .slide img {
+    width: 600px;
+    height: 422px;
+
+  }
+  .slide {
+    display:none;
+  }
   font-size: 17px;
 }
-  
-   
+
   
