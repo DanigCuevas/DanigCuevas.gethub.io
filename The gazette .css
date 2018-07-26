@@ -17,15 +17,30 @@ p,div{
 
 /*border*/
  h1.double {border-style: double;}
-
+/*friend picture*/
 #friends{
   width: 400px;
   height: 341px;
 }
-
+/*about me photo formats*/
 .mePicture {
   float: left;
   width:170px;
   height:170px;
 }
+  
+.topNav {
+  background-color:Black;
+  overflow: Hidden;
+}
+.topNav a{
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+  
+   
   
