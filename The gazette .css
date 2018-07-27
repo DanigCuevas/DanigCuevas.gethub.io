@@ -69,7 +69,7 @@ p,div{
 }
 /*images*/
 .bgimg1{
-  background-image: url ("watercolor.png");
+  background-image: url("watercolor.png");
   min-height: 100%;
 }
 .bgimg2{
