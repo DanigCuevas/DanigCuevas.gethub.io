@@ -61,7 +61,8 @@ p,div{
 }
 /*parralx scrolling*/
 .bgimg1, .bgimg2, .bgimg3{
-  position: relative;
+  position: relative
+  opacity: 0.65;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
