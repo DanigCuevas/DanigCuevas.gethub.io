@@ -1,10 +1,6 @@
 /*Font Types*/
   body {
     text-align: center;
-    background-image:url("watercolor.png");
-
-
-
 }
 
 h1{
@@ -32,7 +28,7 @@ p,div{
   width:170px;
   height:170px;
 }
-
+/*Navigation bar*/
 .topNav {
   background-color: Black;
   overflow: Hidden;
@@ -45,7 +41,7 @@ p,div{
   text-decoration: none;
 }
 
-
+/*slides*/
   #pictureSlide {
     border: 1px black solid;
     width :100% ;
@@ -57,12 +53,52 @@ p,div{
   .slide img {
     width: 600px;
     height: 422px;
-
   }
   .slide {
     display:none;
   }
   font-size: 17px;
 }
+/*parralx scrolling*/
+bgimg1, .bgimg2, .bgimg3{
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*images*/
+bgimg1.{
+  background-image: url ("watercolor.png");
+  min-height: 100%;
+
+bgimg2.{
+   background-image: url("rose.jpg");
+    min-height: 400px;
+
+}
+bgimg3.{
+  background-image: url("colors.jpg");
+    min-height: 400px;
+
+}
+  .caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+
 
   
