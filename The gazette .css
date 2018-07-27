@@ -60,7 +60,7 @@ p,div{
   font-size: 17px;
 }
 /*parralx scrolling*/
-bgimg1, .bgimg2, .bgimg3{
+.bgimg1, .bgimg2, .bgimg3{
   position: relative;
   background-attachment: fixed;
   background-position: center;
@@ -71,15 +71,14 @@ bgimg1, .bgimg2, .bgimg3{
 bgimg1.{
   background-image: url ("watercolor.png");
   min-height: 100%;
-
+}
 bgimg2.{
    background-image: url("rose.jpg");
     min-height: 400px;
-
 }
 bgimg3.{
   background-image: url("colors.jpg");
-    min-height: 400px;
+  min-height: 400px;
 
 }
   .caption {
