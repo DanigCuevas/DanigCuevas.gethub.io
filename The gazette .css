@@ -68,6 +68,9 @@ p,div{
 .next{
 right:0;
 }
+.prev{
+ left: 0;
+}
 
 /*parralx scrolling*/
 .bgimg1, .bgimg2, .bgimg3{
