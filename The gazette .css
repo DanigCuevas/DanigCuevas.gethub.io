@@ -68,15 +68,15 @@ p,div{
   background-size: cover;
 }
 /*images*/
-bgimg1.{
+.bgimg1{
   background-image: url ("watercolor.png");
   min-height: 100%;
 }
-bgimg2.{
+.bgimg2{
    background-image: url("rose.jpg");
     min-height: 400px;
 }
-bgimg3.{
+.bgimg3{
   background-image: url("colors.jpg");
   min-height: 400px;
 
