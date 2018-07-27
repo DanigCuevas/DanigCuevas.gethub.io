@@ -20,7 +20,7 @@ p,div{
 }
 
 /*border*/
- h1.double {border-style: double;}
+/* h1.double {border-style: double;}*/
 /*friend picture*/
 #friends{
   width: 400px;
